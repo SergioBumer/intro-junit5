@@ -24,12 +24,12 @@ class GreetingTest {
   }
 
   @Test
-  void helloWorld() {
+  void testHelloWorld() {
     System.out.println(greeting.helloWorld());
   }
 
   @Test
-  void testHelloWorld() {
+  void testHelloWorld1() {
     System.out.println(greeting.helloWorld("Sergio"));
   }
 
